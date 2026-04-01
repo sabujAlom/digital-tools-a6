@@ -1,6 +1,22 @@
+import { useState } from "react";
 import { ImCheckmark } from "react-icons/im";
+import { toast } from "react-toastify";
 
-const ModelCard = ({ model }) => {
+const ModelCard = ({ model, carts, setCarts }) => {
+  const [isSubscribed, setIsSubscribed] = useState(false);
+
+  const handleSubsSription = () =>{
+    setIsSubscribed(true);
+    const isFound = carts.find((itmem)=>itmem.id === model.id)
+     if(isFound){
+      toast.error("Item already in cart")
+      return
+     }
+     setCarts([...carts, model])
+     toast.success("Item added to cart")
+
+  }
+    
   return (
     <div className="relative">
         <div className="absolute top-4 right-4 px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-wide bg-purple-600 hover:bg-purple-700">
@@ -34,8 +50,8 @@ const ModelCard = ({ model }) => {
             ))}
           </ul>
 
-          <button className="w-full bg-purple-600 hover:bg-purple-700 transition-colors text-white font-semibold py-4         rounded-xl text-lg shadow-md hover:shadow-lg">
-            Buy Now
+          <button onClick={handleSubsSription} className="w-full bg-purple-600 hover:bg-purple-700 transition-colors text-white font-semibold py-4         rounded-xl text-lg shadow-md hover:shadow-lg">
+            {isSubscribed? "Bought" : "Buy Now"}
           </button>
         </div>
       </div>

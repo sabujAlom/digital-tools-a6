@@ -2,7 +2,7 @@ import React from 'react';
 
 const Rating = () => {
     return (
-       <div className="bg-gradient-to-r from-purple-600 to-pink-500 py-10">
+       <div className="bg-gradient-to-r from-purple-600 to-pink-500 py-10 mb-10">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between text-center text-white">
         
         
