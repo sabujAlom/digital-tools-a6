@@ -2,6 +2,7 @@
 import './App.css'
 import Banner from './components/Banner'
 import Footer from './components/Footer'
+import GetStartedStep from './components/GetStartedStep'
 import Navbar from './components/Navbar'
 import PricingSection from './components/PricingSection'
 import Rating from './components/Rating'
@@ -16,8 +17,12 @@ function App() {
      <Banner/>
      <Rating/>
 
+     
+      
 
 
+
+     <GetStartedStep/>
       <PricingSection/>
       <Workflow/>
      <Footer/>

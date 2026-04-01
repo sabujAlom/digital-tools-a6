@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with ATS optimization and modern templates.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter builder"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build a personal portfolio website easily without coding.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
+    "features": [
+      "Modern UI templates",
+      "Responsive design",
+      "SEO optimized",
+      "Easy customization"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "AI Content Writer",
+    "description": "Generate blog posts, marketing copy, and social media content using AI.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4712/4712027.png",
+    "features": [
+      "AI blog generator",
+      "SEO content",
+      "Social media captions",
+      "Unlimited content"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Invoice Generator",
+    "description": "Create and manage professional invoices for your business.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2830/2830284.png",
+    "features": [
+      "Unlimited invoices",
+      "PDF download",
+      "Client management",
+      "Payment tracking"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Social Media Scheduler",
+    "description": "Schedule and manage posts across all social media platforms.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "icon": "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+    "features": [
+      "Post scheduling",
+      "Multi-platform support",
+      "Analytics dashboard",
+      "Auto posting"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Website Analytics Pro",
+    "description": "Track website visitors, performance, and user behavior.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828919.png",
+    "features": [
+      "Real-time analytics",
+      "Traffic reports",
+      "User behavior tracking",
+      "Export reports"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Tool",
+    "description": "Send marketing emails and automate campaigns easily.",
+    "price": 18,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "icon": "https://cdn-icons-png.flaticon.com/512/561/561127.png",
+    "features": [
+      "Email templates",
+      "Automation",
+      "Subscriber management",
+      "Campaign analytics"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cloud Storage Plus",
+    "description": "Secure cloud storage for files, images, and documents.",
+    "price": 50,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4144/4144516.png",
+    "features": [
+      "100GB storage",
+      "File sharing",
+      "Secure backup",
+      "Access from anywhere"
+    ]
+  }
+]
